@@ -2,7 +2,7 @@ import { useState } from "react";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => setIsOpen((prevIsOpen) => !prevIsOpen)
 
